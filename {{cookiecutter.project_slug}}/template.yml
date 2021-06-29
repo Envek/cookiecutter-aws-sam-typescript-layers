@@ -51,6 +51,7 @@ Resources:
     Metadata:
       BuildMethod: makefile
     Properties:
+      LayerName: "{{cookiecutter.project_slug}}-dependencies"
       Description: Runtime dependencies for Lambdas
       ContentUri: ./
       CompatibleRuntimes:
